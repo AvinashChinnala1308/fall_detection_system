@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/uhome"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/position"
+            android:title="Set Position" />
+        <item
+            android:id="@+id/status"
+            android:title="Status" />
+        <item
+            android:id="@+id/addg"
+            android:title="Add Guardian" />
+        <item
+            android:id="@+id/viewg"
+            android:title="View Guardians" />
+        <item
+            android:id="@+id/logout"
+            android:title="Logout" />
+    </group>
+
+</menu>
